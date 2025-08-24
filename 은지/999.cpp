@@ -8,7 +8,7 @@ int T, N, M, C;
 int arr[31][31];
 int gas[31][31];
 int dy[4] = { -1, 1, 0, 0 };
-int dx[4] = { 0, 0, -1, 1 };
+int dx[4] = { 0, 0, -1, 1 }; 
 
 struct Edge {
 	int y, x;
