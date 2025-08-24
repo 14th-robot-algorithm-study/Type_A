@@ -31,7 +31,6 @@ void dijkstra(int sy, int sx) {
 	while (!pq.empty()) {
 		Edge now = pq.top();
 		pq.pop();
-		flag = false;
 
 		if (gas[now.y][now.x] < now.gas) {
 			continue;
