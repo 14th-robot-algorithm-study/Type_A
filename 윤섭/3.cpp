@@ -35,6 +35,9 @@ void bfs() {
 		}
 	}
 
+	// 지역구가 하나로만 이루어져있을 시 return;
+	if (startA == -1 || startB == -1) return;
+
 	// A점이 전부 연결되어있는지 확인
 	queue<int> qA;
 	qA.push(startA);
